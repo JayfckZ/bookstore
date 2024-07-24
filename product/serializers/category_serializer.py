@@ -6,4 +6,5 @@ from product.models import Category
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        field = ["title", "slug", "description", "active"]
+        fields = ["title", "slug", "description", "active"]
+        extra_kwargs = {"slug": {"required": False}}

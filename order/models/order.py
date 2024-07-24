@@ -5,5 +5,5 @@ from product.models.product import Product
 
 
 class Order(models.Model):
-    porduct = models.ManyToManyField(Product, blank=False)
+    product = models.ManyToManyField(Product, blank=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
