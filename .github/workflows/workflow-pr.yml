@@ -1,5 +1,5 @@
 name: Python Pull Request Workflow
-on: [pull]
+on: [pull_request]
 jobs:
 
   qa:
