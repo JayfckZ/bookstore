@@ -146,7 +146,7 @@ INTERNAL_IPS = [
 
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
-ALLOWED_HOSTS = ["loaclhost", "127.0.0.1", "http://jayfckz.pythonanywhere.com/"]
+ALLOWED_HOSTS = ["loaclhost", "127.0.0.1", "http://jayfckz.pythonanywhere.com/", "https://bookstore-production-9091.up.railway.app"]
 
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
