@@ -146,7 +146,7 @@ SECRET_KEY = "p8jv-rc^5=e*%fovbogtqn4l@epi))b3ft-^^6hr+2#&t(#@_h"
 
 DEBUG = int(os.environ.get("DEBUG", default=1))
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "http://jayfckz.pythonanywhere.com/", "https://bookstore-production-9091.up.railway.app"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "jayfckz.pythonanywhere.com/", "bookstore-production-9091.up.railway.app"]
 
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
